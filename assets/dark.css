@@ -1,0 +1,75 @@
+:root{--color-gray-800:#0B0F14 !important;color-scheme:dark !important}
+html,body{background:#0B0F14 !important;color:#E8EFF8 !important}
+[class*="bg-white" i]{background-color:#121A24 !important}
+[class*="bg-[#fbfbfb]" i],[class*="bg-[#F5F9FF]" i],[class*="bg-[#f5f9ff]" i]{background-color:#0B0F14 !important}
+[class*="bg-[#F2F4F8]" i],[class*="bg-[#f2f4f8]" i],[class*="bg-[#F2F4F8]" i]{background-color:#1B2532 !important}
+[class*="border-[#eff1f4]" i],[class*="border-[#EFF1F4]" i],[class*="border-[#f2f4f8]" i],[class*="border-light-gray"]{border-color:#232E3B !important}
+[class*="border-t-[#DADADA4D]" i]{border-color:#232E3B !important}
+[class*="text-[#032b69]" i],[class*="text-navy"]{color:#E8EFF8 !important}
+[class*="text-[#355587]" i],[class*="text-medium-blue"]{color:#D3E0F0 !important}
+[class*="text-[#4f6b96]" i],[class*="text-slate-blue-500"]{color:#B7C7DA !important}
+[class*="text-[#7387a6]" i],[class*="text-muted-blue"],[class*="text-color-blue-200"]{color:#94A7BD !important}
+[class*="text-[#98a8c1]" i],[class*="text-pale-blue"],[class*="text-[#b3bfd2]" i],[class*="text-blue-gray-200"]{color:#7E91A8 !important}
+[class*="bg-[rgba(1,102,244,0.05)]" i]{background-color:rgba(1,102,244,0.16) !important}
+[class*="bg-[rgba(255,78,78,0.05)]" i]{background-color:rgba(255,78,78,0.16) !important}
+input,textarea,select{background:#121A24 !important;color:#E8EFF8 !important;border-color:#232E3B !important}
+input::placeholder,textarea::placeholder{color:#7E91A8 !important}
+svg[stroke="#98A8C1"],svg[stroke="#B3BFD2"]{stroke:#7E91A8}
+*::-webkit-scrollbar{width:0;height:0}
+
+/* Automatically detected light header backgrounds */
+[data-vn-header="true"] {
+    background-color: #121A24 !important;
+    background-image: none !important;
+    color: #E8EFF8 !important;
+    border-color: #232E3B !important;
+}
+
+[data-vn-header="true"] svg {
+    color: #E8EFF8 !important;
+}
+
+[class*="border-b"] {
+    border-bottom-color: #232E3B !important;
+}
+
+
+/* Universal dark mode */
+
+[data-vn-header="true"] {
+    background-color: #121A24 !important;
+    border-color: #263342 !important;
+}
+
+dialog,
+[role="dialog"],
+[role="alertdialog"],
+[role="menu"],
+[role="listbox"],
+[role="tooltip"],
+[role="combobox"],
+[role="menuitem"],
+select,
+option,
+textarea,
+input {
+    background-color: #121A24 !important;
+    color: #E8EFF8 !important;
+    border-color: #263342 !important;
+}
+
+hr {
+    border-color: #263342 !important;
+    background-color: #263342 !important;
+}
+
+[class*="bg-gray-100"],
+[class*="bg-gray-200"],
+[class*="bg-slate-100"],
+[class*="bg-slate-200"],
+[class*="bg-neutral-50"],
+[class*="bg-neutral-100"],
+[class*="bg-neutral-200"] {
+    background-color: #121A24 !important;
+}
+

@@ -1,0 +1,13 @@
+key.jks
+*.jks
+*.keystore
+*.bak
+.env
+sdk/
+obj/
+gen/
+backups/
+classes.dex
+unsigned.apk
+aligned.apk
+*.apk
