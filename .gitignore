@@ -11,3 +11,4 @@ classes.dex
 unsigned.apk
 aligned.apk
 *.apk
+*.idsig
